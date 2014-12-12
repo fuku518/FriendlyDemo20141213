@@ -1,0 +1,9 @@
+﻿<Window x:Class="FriendlyDemo20141213.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="165" Width="265">
+    <Grid>
+        <Button Content="普通にアプリ起動(Friendly関係なし)" HorizontalAlignment="Left" VerticalAlignment="Top" Width="Auto" Click="OnButton1"/>
+        <Button Content="何でもできる～(Friendly Magic!)" HorizontalAlignment="Left" VerticalAlignment="Top" Width="Auto" Margin="0,39,0,0" Click="OnButton2"/>
+    </Grid>
+</Window>
